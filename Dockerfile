@@ -1,7 +1,7 @@
 FROM alpine:3.8
-LABEL maintainer="Yorick Poels <yorick.poels@gmail.com>"
+LABEL maintainer="Lacoste <git@delfosse.com>"
 
-ENV COREDNS_VERSION=1.2.2
+ENV COREDNS_VERSION=1.2.6
 
 RUN set -xe &&\
     apk add --no-cache bind-tools ca-certificates openssl curl dumb-init &&\
